@@ -3,7 +3,7 @@ import arrow
 
 class PDF(FPDF):
     def header(self):
-        self.image('header.png', 0, 0, 210)
+        self.image('head.png', 0, 0, 210)
         self.set_font('Arial', 'B', 15)
         self.cell(80)
         self.ln(28)
