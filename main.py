@@ -28,9 +28,9 @@ pdf.cell(epw, 0.0, 'Informações da Versão', align='L')
 pdf.set_font('Arial','',10.0) 
 pdf.ln(4)
 
-Client = 'TJ/MS'
-System = 'SAJ/PG5'
-Version= '1.9.3-1'
+Client = ''
+System = ''
+Version= ''
 DateNow = str(arrow.now().format('DD/MM/YYYY'))
 
 
